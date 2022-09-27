@@ -35,7 +35,7 @@ export default function RegisterModal({show, handleClose}){
                 name: formRegister.name,
                 email: formRegister.email,
                 password: formRegister.password,
-                is_Admin: false
+                is_Admin: true
             }
 
             console.log(dataUser)
