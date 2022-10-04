@@ -168,7 +168,7 @@ const styles = {
     },
     transactionSection: {
         display:'flex',
-        width:'40%',
+        width:'0%',
         flexDirection:'column',
         justifyContent:'flex-start',
        
