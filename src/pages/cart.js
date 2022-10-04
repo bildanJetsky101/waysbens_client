@@ -150,7 +150,7 @@ export default function Cart(){
         setShow(true)
         await API.delete(`/clean-cart`);
         // setDonePay(true)
-        navigate("/profile")
+        // navigate("/profile")
         }
         catch(error){
             console.log(error)
