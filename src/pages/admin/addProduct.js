@@ -54,6 +54,9 @@ export default function AddProduct (){
               "Content-type": "multipart/form-data",
             },
           };
+
+          console.log('hello')
+          console.log(formData)
     
           // Insert product data
           const response =  await API.post("/product", formData, config);
