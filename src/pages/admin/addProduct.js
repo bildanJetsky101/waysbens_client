@@ -41,7 +41,7 @@ export default function AddProduct (){
     
           // Store data with FormData as object
           const formData = new FormData();
-          formData.set("image",formProduct?.image[0],formProduct?.image[0]?.name);
+          formData.set("image",formProduct.image[0],formProduct.image[0].name);
           formData.set("title",formProduct.title);
           formData.set("price",formProduct.price);
           formData.set("stock",formProduct.stock);
@@ -56,7 +56,7 @@ export default function AddProduct (){
           };
     
           // Insert product data
-          const response =  await API.post("/add-product", formData, config);
+          const response =  await API.post("/product", formData, config);
           console.log(response);
           alert("berhasil menambahkan product");
           
