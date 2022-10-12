@@ -74,7 +74,7 @@ export default function Profile(){
               
                 </div>
                 <div style={styles.transactionSection}>
-                    {/* <h2>My Transaction</h2>
+                    <h2>My Transaction</h2>
                     <div style={styles.transactionCard}>
                         <div style={styles.productInfo}>
                             <img style={styles.img} src={Product[0].image} alt="" />
@@ -127,7 +127,7 @@ export default function Profile(){
                             <img style={styles.qrCode}src={QrCode} alt="" />
                             <p style={styles.infoTransaction}></p>
                         </div>
-                    </div> */}
+                    </div>
 
                 </div>
             </div>
