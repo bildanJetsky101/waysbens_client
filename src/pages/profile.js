@@ -150,7 +150,7 @@ const styles = {
     profileSection: {
         marginTop:'20px',
         display:'flex',
-        width:"100%",
+        width:"60%",
         flexDirection:'row',
     },
     profileImg: {
@@ -168,7 +168,7 @@ const styles = {
     },
     transactionSection: {
         display:'flex',
-        width:'0%',
+        width:'40%',
         flexDirection:'column',
         justifyContent:'flex-start',
        
